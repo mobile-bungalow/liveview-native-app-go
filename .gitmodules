@@ -1,0 +1,3 @@
+[submodule "liveview-client-swiftui"]
+	path = liveview-client-swiftui
+	url = git@github.com:liveview-native/liveview-client-swiftui.git
