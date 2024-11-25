@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,7 +33,6 @@
 		00242EF32C6E515200CC972C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000C92852BB3150F00E553D4 /* Settings.swift */; };
 		00242EF42C6E515200CC972C /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ABCC472BF395170039E1CE /* DataScannerView.swift */; };
 		00242EF52C6E515200CC972C /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C48D542C656CAD002B23FF /* ConnectingView.swift */; };
-		00242EFA2C6E516500CC972C /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 00242EF92C6E516500CC972C /* LiveViewNative */; };
 		00ABCC452BED72B80039E1CE /* ShakeGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ABCC442BED72B80039E1CE /* ShakeGesture.swift */; };
 		00ABCC482BF395170039E1CE /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ABCC472BF395170039E1CE /* DataScannerView.swift */; };
 		00C48D4F2C656C47002B23FF /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C48D4E2C656C47002B23FF /* ErrorView.swift */; };
@@ -42,7 +41,6 @@
 		00C48D552C656CAD002B23FF /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C48D542C656CAD002B23FF /* ConnectingView.swift */; };
 		00C48D572C6BAA02002B23FF /* QuickActionsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C48D562C6BAA02002B23FF /* QuickActionsModifier.swift */; };
 		00C48D592C6BAA18002B23FF /* QuickActionsCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C48D582C6BAA18002B23FF /* QuickActionsCommands.swift */; };
-		00C48D622C6BBA60002B23FF /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 00C48D612C6BBA60002B23FF /* LiveViewNative */; };
 		00CB963A2C62988300ADBF08 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CB96392C62988300ADBF08 /* Constants.swift */; };
 		00D674A32CAEE29F002E2838 /* LiveViewCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D674A22CAEE291002E2838 /* LiveViewCodeScanner.swift */; };
 		00D674A42CAEE29F002E2838 /* LiveViewCodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D674A22CAEE291002E2838 /* LiveViewCodeScanner.swift */; };
@@ -50,6 +48,8 @@
 		00D674A72CAEF91A002E2838 /* URL+replacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D674A52CAEF904002E2838 /* URL+replacing.swift */; };
 		00FC5E192CC82B410012361E /* LogsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC5E182CC82B3E0012361E /* LogsScreen.swift */; };
 		00FC5E1A2CC82B410012361E /* LogsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC5E182CC82B3E0012361E /* LogsScreen.swift */; };
+		1CF8F7CD2CF5173A004985D1 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 1CF8F7CC2CF5173A004985D1 /* LiveViewNative */; };
+		1CF8F7CF2CF5173A004985D1 /* LiveViewNativeStylesheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1CF8F7CE2CF5173A004985D1 /* LiveViewNativeStylesheet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,7 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C48D622C6BBA60002B23FF /* LiveViewNative in Frameworks */,
+				1CF8F7CF2CF5173A004985D1 /* LiveViewNativeStylesheet in Frameworks */,
+				1CF8F7CD2CF5173A004985D1 /* LiveViewNative in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +122,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00242EFA2C6E516500CC972C /* LiveViewNative in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,8 @@
 			);
 			name = "LVN Go";
 			packageProductDependencies = (
-				00C48D612C6BBA60002B23FF /* LiveViewNative */,
+				1CF8F7CC2CF5173A004985D1 /* LiveViewNative */,
+				1CF8F7CE2CF5173A004985D1 /* LiveViewNativeStylesheet */,
 			);
 			productName = LiveViewNativeGo;
 			productReference = 000C926D2BB30EDD00E553D4 /* LVN Go.app */;
@@ -290,7 +291,6 @@
 			);
 			name = LiveViewNativeGoAppClip;
 			packageProductDependencies = (
-				00242EF92C6E516500CC972C /* LiveViewNative */,
 			);
 			productName = LiveViewNativeGoAppClip;
 			productReference = 00242ED62C6E513000CC972C /* LiveViewNativeGoAppClip.app */;
@@ -324,7 +324,7 @@
 			);
 			mainGroup = 000C92642BB30EDD00E553D4;
 			packageReferences = (
-				00C48D422C65599B002B23FF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				1CF8F7CB2CF5173A004985D1 /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */,
 			);
 			productRefGroup = 000C926E2BB30EDD00E553D4 /* Products */;
 			projectDirPath = "";
@@ -725,27 +725,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		00C48D422C65599B002B23FF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
-			requirement = {
-				kind = exactVersion;
-				version = 0.3.1;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		1CF8F7CB2CF5173A004985D1 /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../liveview-client-swiftui";
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		00242EF92C6E516500CC972C /* LiveViewNative */ = {
+		1CF8F7CC2CF5173A004985D1 /* LiveViewNative */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 00C48D422C65599B002B23FF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
 			productName = LiveViewNative;
 		};
-		00C48D612C6BBA60002B23FF /* LiveViewNative */ = {
+		1CF8F7CE2CF5173A004985D1 /* LiveViewNativeStylesheet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 00C48D422C65599B002B23FF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
-			productName = LiveViewNative;
+			productName = LiveViewNativeStylesheet;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

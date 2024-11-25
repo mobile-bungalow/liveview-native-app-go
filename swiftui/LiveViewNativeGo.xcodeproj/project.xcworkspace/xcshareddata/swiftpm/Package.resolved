@@ -1,15 +1,6 @@
 {
-  "originHash" : "540c28b3d2a56261a1c056589dfe3161650d63764169c69a3bf3221b9624a9d3",
+  "originHash" : "1cce163f913bb18061e6dbb11e9c742878ce589c8e5188a8f25c0752851ebce2",
   "pins" : [
-    {
-      "identity" : "liveview-client-swiftui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-client-swiftui",
-      "state" : {
-        "revision" : "669274b2314862b36a622d52f78eab007769bed9",
-        "version" : "0.3.1"
-      }
-    },
     {
       "identity" : "liveview-native-core-swift",
       "kind" : "remoteSourceControl",
@@ -17,42 +8,6 @@
       "state" : {
         "revision" : "339594b395938e38f1fb2216a31c8791030ec9ba",
         "version" : "0.2.1"
-      }
-    },
-    {
-      "identity" : "liveview-native-live-form",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-native-live-form",
-      "state" : {
-        "revision" : "ecedbf941e8818f6ba25ce71e612e3b2371a5039",
-        "version" : "0.3.1"
-      }
-    },
-    {
-      "identity" : "liveview-native-swiftui-avkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-native-swiftui-avkit",
-      "state" : {
-        "revision" : "964c46d3a225d8822a196614e6317f7341445647",
-        "version" : "0.3.0"
-      }
-    },
-    {
-      "identity" : "liveview-native-swiftui-charts",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-native-swiftui-charts",
-      "state" : {
-        "revision" : "e5ffd6d3e55f677f12a976a1b3554f32a328ddf2",
-        "version" : "0.3.0"
-      }
-    },
-    {
-      "identity" : "liveview-native-swiftui-mapkit",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-native-swiftui-mapkit",
-      "state" : {
-        "revision" : "5b4e8edfb00c77dda8ed53635c8414451f56bd9e",
-        "version" : "0.3.0"
       }
     },
     {
@@ -114,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/davidstump/SwiftPhoenixClient.git",
       "state" : {
-        "revision" : "f7098ca53af4c9eb2a5e43267c5db5a306c98335",
-        "version" : "5.3.3"
+        "revision" : "2ea54b43202b053a1e84529509b91621d5601606",
+        "version" : "5.3.4"
       }
     },
     {
@@ -123,8 +78,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/scinfu/SwiftSoup.git",
       "state" : {
-        "revision" : "3c2c7e1e72b8abd96eafbae80323c5c1e5317437",
-        "version" : "2.7.5"
+        "revision" : "0837db354faf9c9deb710dc597046edaadf5360f",
+        "version" : "2.7.6"
       }
     },
     {
@@ -132,8 +87,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
       "state" : {
-        "revision" : "770f990d3e4eececb57ac04a6076e22f8c97daeb",
-        "version" : "1.4.2"
+        "revision" : "a3f634d1a409c7979cabc0a71b3f26ffa9fc8af1",
+        "version" : "1.4.3"
       }
     }
   ],
