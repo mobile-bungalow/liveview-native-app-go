@@ -48,6 +48,7 @@
 		00D674A72CAEF91A002E2838 /* URL+replacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D674A52CAEF904002E2838 /* URL+replacing.swift */; };
 		00FC5E192CC82B410012361E /* LogsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC5E182CC82B3E0012361E /* LogsScreen.swift */; };
 		00FC5E1A2CC82B410012361E /* LogsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC5E182CC82B3E0012361E /* LogsScreen.swift */; };
+		1CD5C5FC2CF51C4800F574D1 /* BuiltinRegistryGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 1CD5C5FB2CF51C4800F574D1 /* BuiltinRegistryGenerator */; };
 		1CF8F7CD2CF5173A004985D1 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 1CF8F7CC2CF5173A004985D1 /* LiveViewNative */; };
 		1CF8F7CF2CF5173A004985D1 /* LiveViewNativeStylesheet in Frameworks */ = {isa = PBXBuildFile; productRef = 1CF8F7CE2CF5173A004985D1 /* LiveViewNativeStylesheet */; };
 /* End PBXBuildFile section */
@@ -115,6 +116,7 @@
 			files = (
 				1CF8F7CF2CF5173A004985D1 /* LiveViewNativeStylesheet in Frameworks */,
 				1CF8F7CD2CF5173A004985D1 /* LiveViewNative in Frameworks */,
+				1CD5C5FC2CF51C4800F574D1 /* BuiltinRegistryGenerator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +274,7 @@
 			packageProductDependencies = (
 				1CF8F7CC2CF5173A004985D1 /* LiveViewNative */,
 				1CF8F7CE2CF5173A004985D1 /* LiveViewNativeStylesheet */,
+				1CD5C5FB2CF51C4800F574D1 /* BuiltinRegistryGenerator */,
 			);
 			productName = LiveViewNativeGo;
 			productReference = 000C926D2BB30EDD00E553D4 /* LVN Go.app */;
@@ -733,6 +736,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1CD5C5FB2CF51C4800F574D1 /* BuiltinRegistryGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BuiltinRegistryGenerator;
+		};
 		1CF8F7CC2CF5173A004985D1 /* LiveViewNative */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = LiveViewNative;

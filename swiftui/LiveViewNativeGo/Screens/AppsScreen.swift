@@ -17,6 +17,7 @@ struct SelectedApp: Identifiable, Hashable, Codable {
     let id: UUID
 
     @ViewBuilder
+    @MainActor
     func makeLiveView(settings: Settings, dynamicType: DynamicTypeSize) -> some View {
         #LiveView(
             url
