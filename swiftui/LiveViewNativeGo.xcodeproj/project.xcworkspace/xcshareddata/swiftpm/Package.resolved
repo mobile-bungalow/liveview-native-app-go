@@ -2,15 +2,6 @@
   "originHash" : "1cce163f913bb18061e6dbb11e9c742878ce589c8e5188a8f25c0752851ebce2",
   "pins" : [
     {
-      "identity" : "liveview-native-core",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/liveview-native/liveview-native-core",
-      "state" : {
-        "revision" : "b3fd4e2d49a58e95aa2f8d46af3bb67a8193aa97",
-        "version" : "0.4.0-alpha-11"
-      }
-    },
-    {
       "identity" : "swift-argument-parser",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-argument-parser",
