@@ -336,7 +336,7 @@
 			);
 			mainGroup = 000C92642BB30EDD00E553D4;
 			packageReferences = (
-				1CD5C5FD2CF53E6900F574D1 /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */,
+				1C10497E2D09741600490A7A /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */,
 			);
 			productRefGroup = 000C926E2BB30EDD00E553D4 /* Products */;
 			projectDirPath = "";
@@ -554,6 +554,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LiveViewNativeGo/LiveViewNativeGo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveViewNativeGo/Preview Content\"";
@@ -599,6 +600,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = LiveViewNativeGo/LiveViewNativeGo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"LiveViewNativeGo/Preview Content\"";
@@ -738,7 +740,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		1CD5C5FD2CF53E6900F574D1 /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */ = {
+		1C10497E2D09741600490A7A /* XCLocalSwiftPackageReference "../liveview-client-swiftui" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "../liveview-client-swiftui";
 		};
